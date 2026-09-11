@@ -1,0 +1,18 @@
+{
+  "name": "tesla_auth",
+  "version": "0.15.0",
+  "description": "Tesla API tokens generator — JavaScript port of the Rust binary",
+  "type": "module",
+  "bin": {
+    "tesla_auth": "bin/tesla_auth.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "test:debug": "node --test --inspect-brk test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
